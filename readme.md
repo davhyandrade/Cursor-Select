@@ -4,7 +4,7 @@
 
 Botão Cursor ao qual consegue selecionar elemento da página, baseado no botão inspecionar da extensão `DevTools`.
 
-<img src="https://i.postimg.cc/q7js90xW/Captura-de-Tela-4.png" width="450px">
+<img src="https://i.postimg.cc/q7js90xW/Captura-de-Tela-4.png" width="550px">
 
 Desenvolvido pelo:
 
