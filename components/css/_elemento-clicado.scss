@@ -1,0 +1,10 @@
+.elemento-clicado {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.elemento-clicado-hover:hover {
+    transition: 1s;
+    background-color: rgba(16, 164, 0, 0.218);
+    cursor: pointer;
+}
