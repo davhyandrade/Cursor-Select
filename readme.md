@@ -1,10 +1,12 @@
 # Botão Selecionar Elemento
 
+> Status: Concluded
+
 ## Cursor Select
 
 Botão Cursor ao qual consegue selecionar elemento da página, baseado no botão inspecionar da extensão `DevTools`.
 
-<img src="https://i.postimg.cc/q7js90xW/Captura-de-Tela-4.png" width="450px">
+<img src="https://i.postimg.cc/q7js90xW/Captura-de-Tela-4.png" width="100%">
 
 Desenvolvido pelo:
 
@@ -14,5 +16,9 @@ Desenvolvido pelo:
 
 * JavaScript
 
+##
+
 Trabalhando com events, ao qual consiste em capturar o evento click do corpo do site e retornar o elemento clicado neste evento através da propriedade target.
+
+https://user-images.githubusercontent.com/109045257/185794914-73048409-1a2a-4565-879a-eac4eb42ee85.mp4
 
