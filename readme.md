@@ -2,7 +2,7 @@
 
 > Status: Concluded
 
-## Cursor Select.
+## Cursor Select
 
 Botão Cursor ao qual consegue selecionar elemento da página, baseado no botão inspecionar da extensão `DevTools`.
 
