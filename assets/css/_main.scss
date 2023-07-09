@@ -1,19 +1,25 @@
-@import 'colors';
+@import "colors";
 
-@mixin  flexCenter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
-    @include flexCenter();
-    background: $backgroundColor;
+  @include flexCenter();
+  background: $backgroundColor;
 }
 
 main {
-    @include flexCenter();
-    flex-direction: column;
-    width: 60%;
-    margin-top: 60px;
+  @include flexCenter();
+  flex-direction: column;
+  width: 60%;
+  margin-top: 60px;
+
+  @media only screen and (max-width: 800px) {
+    & {
+      width: 95%;
+    }
+  }
 }

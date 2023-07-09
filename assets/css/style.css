@@ -15,12 +15,23 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 800px) {
+  .field-sobre {
+    height: 200px;
+  }
+}
 .field-sobre p {
   width: 90%;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: #555;
   margin-bottom: 20px;
+}
+@media only screen and (max-width: 800px) {
+  .field-sobre p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
 }
 
 .head-field-teste {
@@ -52,6 +63,14 @@
   margin-right: 20px;
   color: #555;
 }
+@media only screen and (max-width: 800px) {
+  .head-field-teste p {
+    width: 85%;
+    text-align: end;
+    font-size: 0.8rem;
+    margin-right: 10px;
+  }
+}
 
 .field-teste {
   width: 100%;
@@ -61,7 +80,6 @@
   overflow-y: scroll;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  position: -webkit-sticky;
   position: sticky;
 }
 .field-teste .nav {
@@ -81,6 +99,11 @@
   justify-content: center;
   justify-content: space-between;
 }
+@media only screen and (max-width: 800px) {
+  .field-teste .nav .nav-position {
+    width: 85%;
+  }
+}
 .field-teste .nav .nav-position > p {
   font-weight: bold;
 }
@@ -89,29 +112,67 @@
   font-size: 14px;
   cursor: pointer;
 }
+@media only screen and (max-width: 800px) {
+  .field-teste .nav .nav-position > div > p:nth-last-child(1) {
+    display: none;
+  }
+  .field-teste .nav .nav-position > div > p:nth-last-child(2) {
+    display: none;
+  }
+  .field-teste .nav .nav-position > div > p {
+    font-size: 0.8rem;
+  }
+}
 .field-teste .nav .nav-position > div > p:hover {
   transition: 1s;
   color: rgb(255, 157, 0);
 }
 .field-teste .landing-page {
   display: flex;
-  width: 75%;
+  justify-content: center;
+  width: 100%;
   height: 500px;
   margin: 0 auto;
 }
-.field-teste .landing-page h1 {
+@media only screen and (max-width: 800px) {
+  .field-teste .landing-page {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+}
+.field-teste .landing-page .position {
+  width: 75%;
+}
+@media only screen and (max-width: 800px) {
+  .field-teste .landing-page .position {
+    width: 85%;
+  }
+}
+.field-teste .landing-page .position h1 {
   width: 60%;
   margin-top: 30px;
   font-size: 30px;
 }
-.field-teste .landing-page p {
+@media only screen and (max-width: 800px) {
+  .field-teste .landing-page .position h1 {
+    font-size: 1rem;
+  }
+}
+.field-teste .landing-page .position p {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.767);
   width: 60%;
   margin: 10px 0 20px 0;
   z-index: 99;
 }
-.field-teste .landing-page button {
+@media only screen and (max-width: 800px) {
+  .field-teste .landing-page .position p {
+    margin: 5px 0 15px 0;
+    font-size: 0.6rem;
+  }
+}
+.field-teste .landing-page .position button {
   letter-spacing: 2px;
   font-weight: bold;
   color: white;
@@ -121,16 +182,31 @@
   border-radius: 10px;
   background: none;
 }
-.field-teste .landing-page button:hover {
+@media only screen and (max-width: 800px) {
+  .field-teste .landing-page .position button {
+    font-size: 0.5rem;
+    padding: 5px 25px;
+    border-radius: 5px;
+  }
+}
+.field-teste .landing-page .position button:hover {
   transition: 2s;
   background: white;
   color: #0089ff;
 }
-.field-teste .landing-page img {
+.field-teste .landing-page .position img {
   width: 400px;
   position: absolute;
   right: 2%;
+  bottom: 14px;
   z-index: 1;
+}
+@media only screen and (max-width: 800px) {
+  .field-teste .landing-page .position img {
+    bottom: 50px;
+    width: 260px;
+    right: -25%;
+  }
 }
 .field-teste .section-2 {
   width: 100%;
@@ -141,6 +217,12 @@
   justify-content: center;
   align-items: flex-start;
 }
+@media only screen and (max-width: 800px) {
+  .field-teste .section-2 {
+    height: 500px;
+    position: relative;
+  }
+}
 .field-teste .section-2 .box-models {
   display: flex;
   justify-content: space-evenly;
@@ -148,6 +230,12 @@
   position: absolute;
   top: 485px;
   z-index: 99;
+}
+@media only screen and (max-width: 800px) {
+  .field-teste .section-2 .box-models {
+    top: -50px;
+    width: 100%;
+  }
 }
 .field-teste .section-2 .box-models img {
   width: 24%;
@@ -164,19 +252,47 @@
   justify-content: flex-end;
   align-items: flex-start;
 }
+@media only screen and (max-width: 800px) {
+  .field-teste .section-2 .field-text {
+    margin-top: 0;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+  }
+}
 .field-teste .section-2 .field-text img {
   width: 390px;
   position: absolute;
   left: 0;
   z-index: 1;
 }
+@media only screen and (max-width: 800px) {
+  .field-teste .section-2 .field-text img {
+    width: 100%;
+    bottom: -25%;
+  }
+}
 .field-teste .section-2 .field-text div {
   margin-right: 70px;
   width: 40%;
 }
+@media only screen and (max-width: 800px) {
+  .field-teste .section-2 .field-text div {
+    padding-top: 100px;
+    margin-right: 0;
+    width: 80%;
+  }
+}
 .field-teste .section-2 .field-text div h1 {
   color: #2d2d2d;
   font-size: 30px;
+}
+@media only screen and (max-width: 800px) {
+  .field-teste .section-2 .field-text div h1 {
+    font-size: 1rem;
+  }
 }
 .field-teste .section-2 .field-text div p {
   color: #2d2d2d;
@@ -184,6 +300,12 @@
   font-size: 13px;
   line-height: 16px;
   margin-top: 10px;
+}
+@media only screen and (max-width: 800px) {
+  .field-teste .section-2 .field-text div p {
+    text-align: justify;
+    font-size: 0.7rem;
+  }
 }
 
 body {
@@ -200,6 +322,11 @@ main {
   flex-direction: column;
   width: 60%;
   margin-top: 60px;
+}
+@media only screen and (max-width: 800px) {
+  main {
+    width: 95%;
+  }
 }
 
 .elemento-clicado {
