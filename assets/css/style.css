@@ -326,6 +326,7 @@ main {
 @media only screen and (max-width: 800px) {
   main {
     width: 95%;
+    margin-top: 15px;
   }
 }
 

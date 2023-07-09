@@ -16,10 +16,11 @@ main {
   flex-direction: column;
   width: 60%;
   margin-top: 60px;
-
+  
   @media only screen and (max-width: 800px) {
     & {
       width: 95%;
+      margin-top: 15px;
     }
   }
 }
