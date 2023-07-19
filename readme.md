@@ -2,6 +2,12 @@
 
 > Status: Concluded
 
+<div align="right">
+  <sub>Create in</sub>  
+  
+  `16/08/2022`
+</div>
+
 ## Cursor Select
 
 Botão Cursor ao qual consegue selecionar elemento da página, baseado no botão inspecionar da extensão `DevTools`.
