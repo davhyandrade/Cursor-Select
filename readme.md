@@ -1,12 +1,12 @@
-# Botão Selecionar Elemento
-
-> Status: Concluded
-
-<div align="right" width="100%">
+<div align="center" width="100%">
   <sub>Create in</sub>  
   
   `16/08/2022`
 </div>
+
+# Botão Selecionar Elemento
+
+> Status: Concluded
 
 ## Cursor Select
 
