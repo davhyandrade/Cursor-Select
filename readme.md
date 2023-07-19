@@ -1,4 +1,4 @@
-<div align="right" width="100%">
+<div align="right">
   <sub>Create in</sub>  
   
   `16/08/2022`
