@@ -2,7 +2,7 @@
 
 > Status: Concluded
 
-<div align="right">
+<div align="center" width="100%">
   <sub>Create in</sub>  
   
   `16/08/2022`
